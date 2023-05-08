@@ -1,0 +1,264 @@
+  /* SECONDARY-HEADER */
+
+  footer {
+    background-color: #242A39;
+  }
+  
+
+  body {
+    background-color: #242A39;
+    margin: 0;
+  }
+
+.secondary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c4560;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Archivo Narrow', sans-serif;
+    box-shadow: 0 11px 9px rgba(0, 0, 0, 0.2);
+  }
+  
+  .language {
+    display: flex;
+    align-items: center;
+  }
+  
+  .language-label {
+    padding-right: 10px;
+  }
+  
+  .language-select select {
+    padding: 5px 10px;
+    border-radius: 11px;
+    border: none;
+    background-color: #5e6d97;
+    color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .secondary-header .button {
+    background-color: #5e6d97;
+    color: #fff;
+    border-radius: 11px;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: 'Archivo Narrow', sans-serif;
+    transition: background-color 0.3s;
+  }
+
+  .secondary-header .button:hover {
+    background-color: #47588b; 
+  }
+
+  
+  
+  .language-select::after {
+    content: "\25BE";
+    margin-left: 5px;
+    color: #fff;
+  }
+  
+  /* PRIMARY-HEADER */
+
+  .primary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e3a4d;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Baloo Chettan', sans-serif;
+  }
+  
+  .primary-header h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #CF6679;
+    margin: 0;
+  }
+
+  .title-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 2.5rem;
+    margin-left: 10px;
+  }
+  
+  
+  nav ul.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul.menu li {
+    margin-right: 20px;
+  }
+  
+  nav ul.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  nav ul.menu li a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* FOOTER */
+  footer {
+    background-color: #242A39;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: #D9D9D9;
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .footer-section img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subscribe {
+    display: flex;
+  }
+  
+  .email-input {
+    background-color: #5E6D97;
+    color: #D9D9D9;
+    padding: 5px;
+    margin-right: 10px;
+    border: none;
+  }
+  
+  .subscribe-btn {
+    background-color: #CA9D00;
+    color: #3C4560;
+    border-radius: 12px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* SEPARATOR */
+  .separator {
+    position: relative;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D9D9D9;
+    border: 2px solid #CF6679;
+    border-radius: 60px;
+    width: 50%;
+    height: 10px;
+  }
+  
+  /* SLIDER */
+  .business-slider {
+    display: flex;
+    width: 100%;
+  }
+  
+  .business-slider-left {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    padding: 20px;
+    color: #D9D9D9;
+    font-size: 25px;
+  }
+  
+  .business-slider-right {
+    background-image: url('images/business.png');
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+  }
+/*   
+  PACKAGES-SECTION */
+  .paketi-section {
+  text-align: center;
+  background-color: #3C4560;
+}
+
+.paketi-section h2 {
+  color: #D9D9D9;
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #2D3447;
+  color: #D9D9D9;
+  margin-bottom: 15px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #D9D9D9;
+  text-align: center;
+}
+
+th {
+  background-color: #5E6D97;
+}
+
+th.professional {
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.paketi-title {
+  color: #D9D9D9;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.order-button {
+  background-color: #CA9D00;
+  color: #3C4560;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-button:hover {
+  background-color: #b88e00;
+}

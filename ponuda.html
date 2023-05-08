@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="ponuda.css" />
+  </head>
+  <body>
+    <header class="secondary-header">
+      <div class="language">
+        <div class="language-label">Jezik:</div>
+        <div class="language-select">
+          <select>
+            <option>Srpski</option>
+            <option>English</option>
+          </select>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button">O nama ▼</button>
+        <button class="button">☏ Kontakt</button>
+        <button class="button">👤 Uloguj se</button>
+      </div>
+    </header>
+    <header class="primary-header">
+      <div class="title-logo">
+        <h1>CyperWebb</h1>
+        <img src="images/logo.png" alt="Logo" class="logo" />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="image-slider">
+      <div class="left-container">
+        <p class="description">
+          <strong>NAJKVALITETNIJI HOSTING U SRBIJI !</strong> <br></br> <br>Mi smo CyperWebb hosting provajder
+          iz Srbije koji Vam nudi usluge po svetskim standardima na domaćem
+          tržištu. Naše usluge prilagođene su kako fizičkim tako i pravnim
+          licima. Naš cilj su zadovoljni korisnici hostinga u Srbiji. S tim u
+          vezi, radujemo se uspešnoj i kvalitetnoj saradnji.</br>
+        </p>
+        <img src="images/pc.png" alt="PC" class="pc-image" />
+        <img
+        src="images/right-arrow.png"
+        alt="Right Arrow"
+        class="right-arrow"
+      />
+      </div>
+      <div class="right-container">
+        <p class="description">
+          <strong>PRELAZITE KOD NAS?</strong><br></br> <br> Nudimo Vam besplatnu migraciju! Dovoljno je da
+          kontaktirate naše operatere podrške i mi ćemo obaviti sva potrebna
+          prebacivanja umesto Vas. Prebacićemo sve fajlove, baze podataka, email
+          naloge kao i ostalo što poželite. Migracija se obavlja brzo i Vaš sajt
+          ni u jednom trenutku neće biti nedostupan za vreme prebacivanja na
+          naše servere. Izaberite neki od web hosting ili reseller paketa.
+          Ukoliko smatrate da Vam je potrebno više resursa, nudimo Vam i VPS,
+          Cloud i dedicated (namenske) servere.</br> 
+        </p>
+      </div>
+    </div>
+    <div class="separator"></div>
+    <section class="product-overview">
+      <h2 class="overview-title">Pregled proizvoda</h2>
+      <p class="overview-subtitle">Svi proizvodi sadrže SSD disk kao i besplatan SSL sertifikat!</p>
+    </section>
+    <section class="rectangles-section">
+      <div class="rectangle" id="rectangle1" onclick="navigate('web-hosting.html')">
+        <div class="upper-rectangle">
+          <h3 class="rectangle-title">Web Hosting</h3>
+          <ul class="rectangle-list">
+            <li>4GB prostora</li>
+            <li>1 CPU Jezgro</li>
+            <li>1GB ram</li>
+          </ul>
+        </div>
+        <div class="lower-rectangle">
+          <div class="rectangle-text">
+            <p class="rectangle-price">2400</p>
+            <p class="rectangle-duration">RSD Mesecno</p>
+          </div>
+          <button class="rectangle-button">Detaljnije ▼</button>
+        </div>
+      </div>
+      <div class="rectangle" id="rectangle2" onclick="navigate('business.html')">
+        <div class="upper-rectangle">
+          <h3 class="rectangle-title">Business Hosting</h3>
+          <ul class="rectangle-list">
+            <li>25 GB prostora</li>
+            <li>2 CPU jezgra</li>
+            <li>4GB RAM</li>
+          </ul>
+        </div>
+        <div class="lower-rectangle">
+          <div class="rectangle-text">
+            <p class="rectangle-price">2500</p>
+            <p class="rectangle-duration">RSD Mesecno</p>
+          </div>
+          <button class="rectangle-button">Detaljnije ▼</button>
+        </div>
+      </div>
+      <div class="rectangle" id="rectangle3">
+        <div class="upper-rectangle">
+          <h3 class="rectangle-title">VPS Server</h3>
+          <ul class="rectangle-list">
+            <li>25 GB prostora</li>
+            <li>2 CPU jezgra</li>
+            <li>4GB RAM</li>
+          </ul>
+        </div>
+        <div class="lower-rectangle">
+          <div class="rectangle-text">
+            <p class="rectangle-price">1300</p>
+            <p class="rectangle-duration">RSD Mesecno</p>
+          </div>
+          <button class="rectangle-button">Detaljnije ▼</button>
+        </div>
+      </div>
+      <div class="rectangle" id="rectangle4">
+        <div class="upper-rectangle">
+          <h3 class="rectangle-title">Dedicated Server</h3>
+          <ul class="rectangle-list">
+            <li>1TB prostora</li>
+            <li>8 CPU jezgra</li>
+            <li>16GB RAM</li>
+          </ul>
+        </div>
+        <div class="lower-rectangle">
+          <div class="rectangle-text">
+            <p class="rectangle-price">4000</p>
+            <p class="rectangle-duration">RSD Mesecno</p>
+          </div>
+          <button class="rectangle-button">Detaljnije ▼</button>
+        </div>
+      </div>
+    </section>
+    <div class="separator"></div>    
+    <section class="domain-section">
+      <h2 class="domain-title">Registracija domena</h2>
+      <div class="domain-wrapper">
+        <div class="domain-rectangles">
+          <div class="domain-rectangle">
+            <h3>.com</h3>
+            <div class="rectangle-content">
+              <p>1400 RSD</p>
+            </div>
+          </div>
+          <div class="domain-rectangle">
+            <h3>.rs</h3>
+            <div class="rectangle-content">
+              <p>2300 RSD</p>
+            </div>
+          </div>
+          <div class="domain-rectangle">
+            <h3>.co.rs</h3>
+            <div class="rectangle-content">
+              <p>850 RSD</p>
+            </div>
+          </div>
+          <div class="domain-rectangle">
+            <h3>.net</h3>
+            <div class="rectangle-content">
+              <p>1500 RSD</p>
+            </div>
+          </div>
+          <div class="domain-rectangle">
+            <h3>.in.rs</h3>
+            <div class="rectangle-content">
+              <p>500 RSD</p>
+            </div>
+          </div>
+          <div class="domain-rectangle">
+            <h3>.info</h3>
+            <div class="rectangle-content">
+              <p>1800 RSD</p>
+            </div>
+          </div>
+          <!-- Add other domain rectangles here -->
+        </div>
+        <div class="description-rectangle">
+          <div class="upper">
+            <button class="desc-button">Pretrazi</button>
+            <br></br>
+            <button class="desc-button">Proveri dostupnost</button>
+          </div>
+          <div class="lower">
+            <p>Cene domena vaze na godisnjem nivou!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="separator"></div>
+    <footer>
+      <div class="footer-section">
+        <img src="images/logo-black.png" alt="CyperWebb Logo" />
+        <h3>CyperWebb</h3>
+        <p>12 godina ukazanog poverenja</p>
+        <p>PIB:01234567</p>
+        <p>Matični broj: 00123435</p>
+      </div>
+      <div class="footer-section">
+        <h3>IMATE DILEMU ILI PITANJE PRE KUPOVINE?</h3>
+        <p>Pozovite nas</p>
+        <p>Ponedeljak - petak 09-17h</p>
+        <p>+381601234567</p>
+      </div>
+      <div class="footer-section">
+        <h3>Zanimaju vas najnovije vesti i ponude?Prijavite se na nasu maillistu:</h3>
+        <p>Prijavite se na nasu maillistu:</p>
+        <div class="subscribe">
+          <input type="text" class="email-input" placeholder="Vasa email adresa:" />
+          <button class="subscribe-btn">Prijava</button>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function navigate(url){
+        window.location = url
+      }
+    </script>
+  </body>
+</html>
